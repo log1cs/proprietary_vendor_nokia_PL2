@@ -38,8 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2_cn.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/calibration_test.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibration_test.bin \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
@@ -47,8 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_pl2_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_pl2_holitech_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2_cn.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn81_rfreg.bin \
@@ -117,7 +115,6 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     sensor_calibrate \
     sensors.ssc \
-    audio.primary.sdm660-nokia \
     camera.sdm660 \
     libacdb-fts \
     libacdbloader \
@@ -136,10 +133,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_picselfie_algorithm \
     libarcsoft_smart_denoise \
     libaudcal \
-    libaudio_log_utils \
     libaudioalsa \
-    libaudioconfigstore \
-    libaudioparsers \
     libchromatix_s5k3p3_common \
     libchromatix_s5k3p3_cpp_hfr_120 \
     libchromatix_s5k3p3_cpp_hfr_60 \
@@ -213,7 +207,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k4h8_zsl_preview \
     libchromatix_s5k4h8_zsl_video \
     libdepthmapwrapper \
-    libdrc \
     libfih_camera_effect \
     libflash_dummy_flash \
     libflash_pmic \
@@ -329,10 +322,7 @@ PRODUCT_PACKAGES += \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libqtigef \
     libremosaic_daemon \
-    libsurround_3mic_proc \
-    libtinycompress \
     android.hardware.keymaster@3.0-impl-qti \
     fingerprint.elan \
     capi_v2_aptX_Classic \
