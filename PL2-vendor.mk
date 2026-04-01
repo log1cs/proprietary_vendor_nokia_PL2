@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Hdmi_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb \
+    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/workspaceFile.qwsp \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
